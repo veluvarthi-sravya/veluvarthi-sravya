@@ -42,7 +42,7 @@ const Experience: React.FC = () => {
 
         <ol className="list-decimal space-y-8 text-gray-700 dark:text-gray-300 pl-5">
           {jobs.map((job, index) => (
-            <li key={job.id} className='text-xl lg:text-3xl md:text-2xl'>
+            <li key={job.id}>
               <div className="mb-2">
                 <h3 className="text-xl lg:text-3xl md:text-2xl
                  font-semibold text-gray-900 dark:text-white">{job.title}</h3>
