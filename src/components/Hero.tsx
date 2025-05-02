@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-wrap gap-4 pt-2">
               <a 
-                href="#contact" 
+                href="mailto:contact@example.com" 
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
               >
                 Contact Me
