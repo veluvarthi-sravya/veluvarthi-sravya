@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
                 Contact Me
               </a>
               <a 
-                href="https://drive.google.com/file/d/1vpxk_D9KoI1PXXXj-v7LQn8BCFQhRRzH/view?usp=drive_link" 
+                href="https://drive.google.com/drive/folders/1pCLi9Bw3QzESfvLvGASB7reMjvoktXhw?usp=drive_link" 
                 className="px-6 py-3 flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 rounded-lg font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
               >
                 <Download size={18} />
