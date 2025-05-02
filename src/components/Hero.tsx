@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     <section id="home" className="relative min-h-screen flex items-center pt-20">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white dark:from-gray-900 dark:to-gray-950 -z-10" />
       
-      <div className="container mx-auto px-6 py-16 md:py-24">
+      <div className="container mx-auto px-6 py-5 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className={`space-y-6 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

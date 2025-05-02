@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   const navLinks = [
-    { name: "About", href: "#about" },
+    { name: "Home", href: "#home" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
