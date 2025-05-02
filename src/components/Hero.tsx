@@ -32,12 +32,12 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
-              <a 
-                href="#contact" 
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
-              >
-                Contact Me
-              </a>
+            <a 
+  href="mailto:sravyaveluvarthi07@gmail.com"
+  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
+>
+  Contact Me
+</a>
               <a 
                 href="https://drive.google.com/file/d/1CXWvwbDy0mmeH90HIA-oqMzcMAQNT3AD/view?usp=drive_link" 
                 className="px-6 py-3 flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 rounded-lg font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
