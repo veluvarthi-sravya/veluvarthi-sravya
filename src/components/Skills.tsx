@@ -26,6 +26,8 @@ const Skills: React.FC = () => {
     
     // Tools & Others
     { name: 'Git', level: 90, category: 'tools' },
+    { name: 'VS Code', level: 70, category: 'tools' },
+    { name: 'tailwind CSS', level: 60, category: 'tools' },
   ];
 
   const categories = [
