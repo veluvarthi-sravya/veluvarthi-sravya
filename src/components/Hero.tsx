@@ -4,7 +4,6 @@ import sravya from './Sravya.jpg';
 
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [showEmail, setShowEmail] = useState(false); // New state to show/hide email
 
   useEffect(() => {
     setIsVisible(true);
@@ -33,13 +32,12 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
-              <button 
-                onClick={() => setShowEmail(!showEmail)} // Toggle email visibility
+              <a 
+                href="#contact" 
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
               >
                 Contact Me
-              </button>
-
+              </a>
               <a 
                 href="https://drive.google.com/file/d/1CXWvwbDy0mmeH90HIA-oqMzcMAQNT3AD/view?usp=drive_link" 
                 className="px-6 py-3 flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 rounded-lg font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -48,13 +46,6 @@ const Hero: React.FC = () => {
                 Resume
               </a>
             </div>
-
-            {/* Show email when button is clicked */}
-            {showEmail && (
-              <p className="text-blue-600 dark:text-blue-400 mt-3 font-medium">
-                veluvarthisravya@example.com
-              </p>
-            )}
             
             <div className="flex items-center space-x-5 pt-4">
               <a href="https://github.com/veluvarthi-sravya" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
