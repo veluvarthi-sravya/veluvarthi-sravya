@@ -63,12 +63,14 @@ const Hero: React.FC = () => {
           {/* Image */}
           <div className={`relative transition-all duration-1000 delay-300 flex justify-center items-center ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
   <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl bg-white dark:bg-gray-800 p-2 w-[200px] h-[200px] md:w-[260px] md:h-[260px] flex items-center justify-center">
+    <div className={`relative transition-all duration-1000 delay-300 flex justify-center items-center ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+  <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl bg-white dark:bg-gray-800 p-2 flex items-center justify-center h-full">
     <img 
       src={sravya}
       alt="Sri Sravya" 
-      className="w-full h-full object-cover rounded-xl"
+      className="object-cover rounded-xl h-1/2 w-auto mx-auto"
       style={{ maxHeight: 260, maxWidth: 260 }}
-    />
+    /></div>
   </div>
   <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 dark:bg-blue-600 rounded-full opacity-20 blur-3xl -z-10" />
   <div className="absolute -top-6 -left-6 w-48 h-48 bg-teal-400 dark:bg-teal-600 rounded-full opacity-20 blur-3xl -z-10" />
