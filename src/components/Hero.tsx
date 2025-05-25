@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
-import sravya from './ME.pic.jpg';
+import sravya from './Me2.jpg';
 
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
