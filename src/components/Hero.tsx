@@ -20,30 +20,28 @@ const Hero: React.FC = () => {
             <div className="inline-block bg-blue-100 dark:bg-blue-900/30 rounded-full px-4 py-1 mb-4">
               <p className="text-blue-600 dark:text-blue-400 text-sm font-medium">Full Stack Developer</p>
             </div>
-            
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gray-900 dark:text-white">
               Hi, I'm <span className="text-blue-600 dark:text-blue-400">Sravya</span>
             </h1>
-            
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-lg">
               I'm a skilled software developer with experience in Web development, and expertise in frameworks like
               React.js, Node.js, Express.js and SQL, Python, JavaScript.<br /><br/>
               I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
             </p>
-            
             <div className="flex flex-wrap gap-4 pt-2">
-            <a 
-  href="mailto:sravyaveluvarthi07@gmail.com"
-  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
->
-  Contact Me
-</a>
               <a 
-                href="https://drive.google.com/file/d/12GtH8QBt8X1nekNT6PZB-ZWie35omMvD/view?usp=sharing" 
-                className="px-6 py-3 flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 rounded-lg font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+          href="mailto:sravyaveluvarthi07@gmail.com"
+          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium shadow-lg shadow-blue-600/20 transition-all hover:shadow-blue-600/30 hover:-translate-y-0.5"
               >
-                <Download size={18} />
-                Resume
+          Contact Me
+              </a>
+              <a 
+          href="https://drive.google.com/file/d/12GtH8QBt8X1nekNT6PZB-ZWie35omMvD/view?usp=sharing" 
+          className="px-6 py-3 flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 rounded-lg font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+          target="_blank" rel="noopener noreferrer"
+              >
+          <Download size={18} />
+          Resume
               </a>
             </div>
             
@@ -60,20 +58,18 @@ const Hero: React.FC = () => {
             </div>
           </div>
           
-          {/* Image */}
-          <div className={`relative transition-all duration-1000 delay-300 flex justify-center items-center ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+{/* Image */}
+<div className={`relative transition-all duration-1000 delay-300 flex justify-center items-center ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
   <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl bg-white dark:bg-gray-800 p-2 w-[200px] h-[200px] md:w-[260px] md:h-[260px] flex items-center justify-center">
-    <div className={`relative transition-all duration-1000 delay-300 flex justify-center items-center ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-  <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl bg-white dark:bg-gray-800 p-2 flex items-center justify-center h-full">
     <img 
       src={sravya}
       alt="Sri Sravya" 
-      className="object-cover rounded-xl h-1/2 w-auto mx-auto"
+      className="w-full object-cover rounded-xl"
       style={{ maxHeight: 260, maxWidth: 260 }}
-    /></div>
+    />
+    <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 dark:bg-blue-600 rounded-full opacity-20 blur-3xl -z-10" />
+    <div className="absolute -top-6 -left-6 w-48 h-48 bg-teal-400 dark:bg-teal-600 rounded-full opacity-20 blur-3xl -z-10" />
   </div>
-  <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 dark:bg-blue-600 rounded-full opacity-20 blur-3xl -z-10" />
-  <div className="absolute -top-6 -left-6 w-48 h-48 bg-teal-400 dark:bg-teal-600 rounded-full opacity-20 blur-3xl -z-10" />
 </div>
         </div>
       </div>
