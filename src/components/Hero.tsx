@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
     <img 
       src={sravya}
       alt="Sri Sravya" 
-      className="w-300 h-300 object-cover rounded-xl"
+      className="w-full h-full object-cover rounded-xl"
       style={{ maxHeight: 200, maxWidth: 200 }}
     />
     <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 dark:bg-blue-600 rounded-full opacity-20 blur-3xl -z-10" />
