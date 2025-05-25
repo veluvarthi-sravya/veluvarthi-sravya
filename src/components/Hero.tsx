@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
       src={sravya}
       alt="Sri Sravya" 
       className="w-full object-cover rounded-xl"
-      style={{ maxHeight: 260, maxWidth: 260 }}
+      style={{ maxHeight: 160, maxWidth: 260 }}
     />
     <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 dark:bg-blue-600 rounded-full opacity-20 blur-3xl -z-10" />
     <div className="absolute -top-6 -left-6 w-48 h-48 bg-teal-400 dark:bg-teal-600 rounded-full opacity-20 blur-3xl -z-10" />
